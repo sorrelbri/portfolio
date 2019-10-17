@@ -1,11 +1,16 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">Sorrel June
       </header>
+      {/* About */}
+      {/* contact */}
+      {/* links */}
+      {/* projects */}
+      {/* resume */}
     </div>
   );
 }
