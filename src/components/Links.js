@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Links = () => {
-  return (<>
+  return (<div className="section">
     links
-  </>);
+  </div>);
 }
 
 export default Links;

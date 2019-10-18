@@ -6,7 +6,7 @@ import AStardustTruceDetail from './AStardustTruceDetail';
 import './Project.scss'
 
 const Projects = () => {
-  return (<div className="project">
+  return (<div className="section project">
     <BrowserGo />
     <AStardustTruce />
   </div>);
