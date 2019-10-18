@@ -4,8 +4,11 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Sorrel June
-      </header>
+      <div className="App-header">
+        <header 
+          className="App-header__header"
+        >Sorrel June</header>
+      </div>
       {/* About */}
       {/* contact */}
       {/* links */}
