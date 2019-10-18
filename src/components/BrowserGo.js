@@ -3,7 +3,7 @@ import { Link, Switch, Route } from 'react-router-dom';
 import BrowserGoDetail from './BrowserGoDetail';
 
 const BrowserGo = () => {
-  return (<>
+  return (<div className="project__project-general">
     <h3>Browser Go</h3>
     <Link to="/browser-go">More</Link>
     <Switch>
@@ -11,7 +11,7 @@ const BrowserGo = () => {
         <BrowserGoDetail />
       </Route>
     </Switch>
-  </>);
+  </div>);
 }
 
 export default BrowserGo;

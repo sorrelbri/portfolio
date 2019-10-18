@@ -3,7 +3,7 @@ import { Link, Switch, Route } from 'react-router-dom';
 import AStardustTruceDetail from './AStardustTruceDetail';
 
 const AStardustTruce = () => {
-  return (<>
+  return (<div className="project__project-general">
     A Stardust Truce General
     <Link to="/a-stardust-truce">More</Link>
     <Switch>
@@ -11,7 +11,7 @@ const AStardustTruce = () => {
         <AStardustTruceDetail />
       </Route>
     </Switch>
-  </>);
+  </div>);
 }
 
 export default AStardustTruce;
