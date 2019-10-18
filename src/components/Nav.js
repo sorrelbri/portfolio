@@ -2,7 +2,9 @@ import React from 'react';
 
 const Nav = () => {
   return (<>
-    Nav
+    <a href="#About">About</a>
+    <a href="#Contact">Contact</a>
+    <a href="#Projects">Projects</a>
   </>);
 }
 
