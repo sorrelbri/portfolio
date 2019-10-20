@@ -16,7 +16,9 @@ function App() {
           className="App-header__header"
         >Sorrel June</header>
       </div>
-      <div className="arrow"></div>
+      <div className="arrow-container">
+        <div className="arrow-container__arrow"></div>
+      </div>
       <About />
       <Contact />
       <Projects />

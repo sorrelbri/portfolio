@@ -1,0 +1,10 @@
+div.About {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  p.About__bio__line {
+    margin: 10%;
+    line-height: 1.5;
+  }
+}

@@ -1,5 +1,5 @@
 .App-header {
-  background-color: #282c34;
+  background-color: #281734;
   min-height: 100vh;
   font-size: calc(20px + 2vmin);
   display: flex;
@@ -7,8 +7,10 @@
   align-items: center;
   color: white;
   .App-header__header {
+    font-size: 150%;
     margin: 0 0 0 15vw;
     text-transform: uppercase;
+    font-family: 'Concert One', cursive;  
   }
 }
 
