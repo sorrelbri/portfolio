@@ -14,14 +14,25 @@ function App() {
         <header 
           className="App-header__header"
         >Sorrel June</header>
+        <h4><code>
+        {`
+const writeCode = code => \{
+  let newCode = \{...code}; 
+  newCode.value++; 
+  return newCode;
+}
+          `}
+          </code></h4>
       </div>
       <div className="arrow-container">
         <div className="arrow-container__arrow"></div>
       </div>
       <Nav />
-      <About />
-      <Projects />
-      <Contact />
+      <content>
+        <About />
+        <Projects />
+        <Contact />
+      </content>
     </div>
   );
 }
