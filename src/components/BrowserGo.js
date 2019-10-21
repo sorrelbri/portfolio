@@ -5,7 +5,7 @@ import GitHub from './logos/GitHub';
 
 const BrowserGo = () => {
   return (
-    <div className="project__project-general">
+    <div className="project">
       <h3>Browser Go</h3>
       <div className="project__project-general__links">
         <a 

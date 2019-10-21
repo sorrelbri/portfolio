@@ -20,8 +20,8 @@ function App() {
         <div className="arrow-container__arrow"></div>
       </div>
       <About />
-      <Contact />
       <Projects />
+      <Contact />
     </div>
   );
 }

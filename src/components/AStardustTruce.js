@@ -4,7 +4,7 @@ import AStardustTruceDetail from './AStardustTruceDetail';
 import GitHub from './logos/GitHub';
 
 const AStardustTruce = () => {
-  return (<div className="project__project-general">
+  return (<div className="project">
     <h3>A Stardust Truce</h3>
       <div className="project__project-general__links">
         <a 
