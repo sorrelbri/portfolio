@@ -1,6 +1,9 @@
+@import "public/stylesheets/_variables";
+
 .App-header {
-  background-color: #281734;
-  min-height: 100vh;
+  background-color: map-get($theme-colors, "header-background");
+  
+  min-height: 80vh;
   font-size: calc(20px + 2vmin);
   display: flex;
   justify-content: flex-start;
@@ -10,34 +13,49 @@
     font-size: 150%;
     margin: 0 0 0 15vw;
     text-transform: uppercase;
-    font-family: 'Concert One', cursive;  
+    font-family: 'Concert One', cursive;
+    color: map-get($theme-colors, "accent");
   }
 }
 
 div.arrow-container {
-  background-color: #281734;
-  border-top: 10vh solid #281734;
+  border-top: 20vh solid map-get($theme-colors, "header-background");
   border-right: 100vw solid transparent;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -.1vh;
   div.arrow-container__arrow {
     left: 50vw;
-    top: 105vh;
+    top: 85vh;
     position: absolute;
     border-top: 20px solid rgba(255,255,255,0.8);
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    margin: 10px;
+    animation: bounce 2s ease 6s infinite;
   }
 }
 
-.App-link {
-  color: #09d3ac;
-}
 div.App {
   
   div.section {
-    min-height: 80vh;
+    min-height: 50vh;
   }
+  h3 {
+    color: map-get($theme-colors, "accent");
+    font-family: 'Concert One', cursive; 
+    font-size: 150%;
+    margin: 2vh 0;
+    text-transform: uppercase;
+  }
+}
+
+@keyframes bounce {
+  0% {top: 85vh;}
+  45% {top: 85vh;}
+  50% {top: 80vh;}
+  70% {top: 87vh;}
+  80% {top: 80vh;}
+  90% {top: 87vh;}
+  100% {top: 85vh;}
 }

@@ -1,12 +1,16 @@
+@import 'public/stylesheets/_variables';
+
 div.Projects {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: map-get($theme-colors, "content");
 
   @media only screen and (min-width: 500px) {
     flex-direction: row;
     div.project {
       width: 50vw;
+      padding: 3vh;
     }
   }
   @media only screen and (min-width: 850px) {
@@ -15,12 +19,13 @@ div.Projects {
     }
   }
   div.project {
-    background-color: black;
-    border: white solid 3vw;
+    background-color: map-get($theme-colors, "section-background");
+    border: white solid 1vw;
+    margin: 2vw;
     display: flex;
     align-items: center;
     flex-flow: column nowrap;
-    padding: 3vh;
+    padding: 5vh 4vw;
     border-radius: 20vw;
   }
 }

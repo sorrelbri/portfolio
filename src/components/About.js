@@ -3,7 +3,7 @@ import './About.scss';
 
 const About = () => {
   return (<div className="section About" id="About">
-    <h3 className="About__header">About Me</h3>
+    <h3 className="About__header">Bio</h3>
     <div className="About__bio">
     <p className="About__bio__line">
     Strategic and incisive, Sorrel is an engineer on an eternal quest for the most elegant software solutions to complex problems and whose work ethos is ‘share all knowledge, always.’ 

@@ -1,8 +1,13 @@
+@import "public/stylesheets/_variables";
+
 html {
   box-sizing: border-box;
   border: 0;
   font-family: 'Montserrat', sans-serif;
   body {
+    background-color: map-get($theme-colors, "global-background");
     border: 0;
+    color: map-get($theme-colors, "content")
   }
 }
+
