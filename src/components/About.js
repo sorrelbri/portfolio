@@ -2,7 +2,7 @@ import React from 'react';
 import './About.scss';
 
 const About = () => {
-  return (<div className="section About" id="About">
+  return (<div className="section About" id="Bio">
     <h3 className="About__header">Bio</h3>
     <div className="About__bio">
     <p className="About__bio__line">

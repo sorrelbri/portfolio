@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Nav = () => {
-  return (<>
-    <a href="#About">About</a>
-    <a href="#Contact">Contact</a>
+  return (<nav>
+    <a href="#Bio">Bio</a>
     <a href="#Projects">Projects</a>
-  </>);
+    <a href="#Contact">Contact</a>
+  </nav>);
 }
 
 export default Nav;

@@ -10,7 +10,6 @@ import Resume from './components/Resume';
 function App() {
   return (
     <div className="App">
-      <Nav />
       <div className="App-header">
         <header 
           className="App-header__header"
@@ -19,6 +18,7 @@ function App() {
       <div className="arrow-container">
         <div className="arrow-container__arrow"></div>
       </div>
+      <Nav />
       <About />
       <Projects />
       <Contact />

@@ -48,6 +48,35 @@ div.App {
     margin: 2vh 0;
     text-transform: uppercase;
   }
+
+  nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: map-get($theme-colors, "main-background");
+    a {
+      color: map-get($theme-colors, "accent");
+      margin-top: 5vh;
+      background-color: map-get($theme-colors, "header-background");
+      border-radius: 100%;
+      padding: 2vh;
+      border: .4vh solid white;
+    }
+    @media only screen and (min-width: 500px) {
+      flex-direction: column;
+      margin-left: 80vw;
+      a {
+        border: 1vh solid white;
+        padding-right: 10vw;
+        border-radius: 100% 0 0 100%;
+        border-right: none;
+      }
+    }
+    @media only screen and (min-width: 800px) {
+      margin-left: 89vw;
+    }
+  }
 }
 
 @keyframes bounce {
