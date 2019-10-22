@@ -24,6 +24,10 @@ const AStardustTruce = () => {
       </Route>
       <Route path="/">
         <Link to="/a-stardust-truce"><h5>What is A Stardust Truce?</h5></Link>
+        <img 
+          src="a-stardust-truce-screenshot-python.png" 
+          alt="screenshot from A Stardust Truce application featuring generated Python code for a Stack instantiated as a linked list."
+        />
       </Route>
     </Switch>
   </div>);

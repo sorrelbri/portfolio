@@ -12,6 +12,9 @@ div#Contact {
     margin: 15vh 5vw;
     width: 20vw;
   }
+  div.Contact__personal {
+    display: flex;
+  }
   div.Contact__link a {
     display: flex;
     justify-content: space-evenly;
@@ -27,6 +30,12 @@ div#Contact {
     @media only screen and (min-width: 800px) {
       padding-bottom: 0;
       font-size: 100%;
+    }
+  }
+  .Contact__link__email a, .Contact__link__resume a {
+    padding: 6vh 1vw;
+    p {
+      margin-bottom: 4vh;
     }
   }
 }

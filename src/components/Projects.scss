@@ -28,6 +28,11 @@ div.Projects {
     flex-flow: column nowrap;
     padding: 1vh 4vw 5vh 4vw;
     border-radius: 8vh;
+    img {
+      max-width: 30vw;
+      max-height: 30vw;
+      margin: 2vw;
+    }
 
     h3 {
       margin: 2vh;
