@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
+  color: map-get($theme-colors, "content");
   .App-header__header {
     font-size: 150%;
     margin: 0 0 0 15vw;
@@ -52,12 +52,16 @@ div.App {
   div.section {
     min-height: 50vh;
   }
-  h3 {
+  h3, h5 {
     color: map-get($theme-colors, "accent");
     font-family: 'Concert One', cursive; 
+    text-transform: uppercase;
+  }
+  h3 {
     font-size: 150%;
     margin: 2vh 0;
-    text-transform: uppercase;
+    align-self: flex-start;
+    margin-left: 10vw;
   }
 
   nav {
@@ -80,7 +84,7 @@ div.App {
       a {
         border: 1vh solid white;
         padding-right: 10vw;
-        border-radius: 100% 0 0 100%;
+        border-radius: 5vh 0 0 5vh;
         border-right: none;
       }
     }

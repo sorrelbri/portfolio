@@ -8,19 +8,25 @@ const BrowserGo = () => {
     <div className="project">
       <h3>Browser Go</h3>
       <div className="project__project-general__links">
-        <a 
-          href="https://github.com/sorrelbri/browser-go-api"
-          ><GitHub/>API
+        <div className="project__links__github">
+          <GitHub/>
+          <a 
+            href="https://github.com/sorrelbri/browser-go-api"
+          >API Repo</a>
           <a 
             href="https://github.com/sorrelbri/browser-go-react"
-            >Frontend</a>
-        </a>
-        <a href="https://browser-go.herokuapp.com/">Open App</a>
+          >Frontend Repo</a>
+        </div>
+        <div className="project__links__open-app">
+          <a href="https://browser-go.herokuapp.com/">Open App</a>
+        </div>
       </div>
-      <Link to="/browser-go">What is Browser Go?</Link>
       <Switch>
         <Route path="/browser-go">
           <BrowserGoDetail />
+        </Route>
+        <Route path="/">
+          <Link to="/browser-go"><h5>What is Browser Go?</h5></Link>
         </Route>
       </Switch>
     </div>

@@ -6,9 +6,12 @@ import AStardustTruceDetail from './AStardustTruceDetail';
 import './Projects.scss'
 
 const Projects = () => {
-  return (<div className="section Projects" id="Projects">
-    <BrowserGo />
-    <AStardustTruce />
-  </div>);
+  return (<>
+    <h3>Projects</h3>
+    <div className="section Projects" id="Projects">
+      <BrowserGo />
+      <AStardustTruce />
+    </div>
+  </>);
 }
 export default Projects;

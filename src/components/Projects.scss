@@ -26,7 +26,37 @@ div.Projects {
     display: flex;
     align-items: center;
     flex-flow: column nowrap;
-    padding: 5vh 4vw;
-    border-radius: 20vw;
+    padding: 1vh 4vw 5vh 4vw;
+    border-radius: 8vh;
+
+    h3 {
+      margin: 2vh;
+      align-self: center;
+    }
+
+    a {
+      color: map-get($theme-colors, "accent");
+    }
+    
+    div.project__project-general__links {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+    }
+
+    div.project__links__github, div.project__links__open-app {
+      background-color: #1d191a;
+      display: flex;
+      flex-flow: row nowrap;
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center;
+      border-radius: 1vh;
+      margin-bottom: 1vh;
+    }
+
+    div.project__project-detail {
+      margin-top: 2vh;
+    }
   }
 }
