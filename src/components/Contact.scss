@@ -12,6 +12,23 @@ div#Contact {
     margin: 15vh 5vw;
     width: 20vw;
   }
+  div.Contact__link a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1d191a;
+    color: map-get($theme-colors, "accent");
+    border: .5vh solid white;
+    border-radius: 5vh;
+    padding-right: 2vw;
+    flex-wrap: wrap;
+    padding-bottom: 2vh;
+    font-size: 80%;
+    @media only screen and (min-width: 800px) {
+      padding-bottom: 0;
+      font-size: 100%;
+    }
+  }
 }
 
 div.footer-area {

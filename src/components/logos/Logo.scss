@@ -1,0 +1,33 @@
+div.GitHub-link, div.LinkedIn-link, div.Medium-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+  height: 10vh;
+  margin:0;
+  svg.GitHub-link__svg, svg.LinkedIn-link__svg{
+    width: 10vw;
+    height: 10vh;
+  }
+  svg.Medium-link__svg {
+    width: 8vw;
+    height: 8vh;
+  }
+}
+div.LinkedIn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg.LinkedIn-link__svg {
+    padding: 25%;
+    fill:#006699;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    image {
+      background-color: white;
+
+    }
+  }
+}

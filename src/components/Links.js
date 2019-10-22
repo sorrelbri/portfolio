@@ -1,34 +1,40 @@
 import React from 'react';
 import './Links.scss';
+import GitHub from './logos/GitHub';
+import LinkedIn from './logos/LinkedIn';
+import Medium from './logos/Medium';
 
 const Links = () => {
   return (<div className="Links">
-    <a 
-      href="https://github.com/sorrelbri"
-      target="_blank"  
-    >
-      <div className="Contact__link Contact__link__github">
+    <div className="Contact__link Contact__link__github">
+      <a 
+        href="https://github.com/sorrelbri"
+        target="_blank"  
+        >
+        <GitHub/>
         <p>GitHub</p>
-      </div>
-    </a>
+      </a>
+    </div>
     
-    <a 
-      href="https://www.linkedin.com/in/sorrel-june/"
-      target="_blank"  
-    >
-      <div className="Contact__link Contact__link__linkedin">
+    <div className="Contact__link Contact__link__linkedin">
+      <a 
+        href="https://www.linkedin.com/in/sorrel-june/"
+        target="_blank"  
+      >
+        <LinkedIn />
         <p>LinkedIn</p>
-      </div>
-    </a>
+      </a>
+    </div>
     
-    <a 
-      href="https://medium.com/@sorrel.bri.june"
-      target="_blank"  
-    >
-      <div className="Contact__link Contact__link__medium">
+    <div className="Contact__link Contact__link__medium">
+      <a 
+        href="https://medium.com/@sorrel.bri.june"
+        target="_blank"  
+      >
+        <Medium />
         <p>Medium</p>
-      </div>
-    </a>
+      </a>
+    </div>
     
   </div>);
 }
