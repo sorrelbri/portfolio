@@ -22,12 +22,12 @@ const BrowserGo = () => {
         </div>
       </div>
       <Switch>
-        <Route path="/browser-go">
+        <Route path="/portfolio/browser-go">
           <BrowserGoDetail />
         </Route>
         <Route path="/">
-          <Link to="/browser-go"><h5>What is Browser Go?</h5></Link>
-          <img src="browser-go-screenshot-full-board.png" alt="Screenshot of a Browser Go game in session on a 19 by 19 board."/>
+          <Link to="/portfolio/browser-go"><h5>What is Browser Go?</h5></Link>
+          <img src="%PUBLIC_URL%/browser-go-screenshot-full-board.png" alt="Screenshot of a Browser Go game in session on a 19 by 19 board."/>
         </Route>
       </Switch>
     </div>
