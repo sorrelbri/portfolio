@@ -1,5 +1,4 @@
-import React from 'react';
-import { Link, Switch, Route } from 'react-router-dom';
+import React, { Component } from 'react';
 import AStardustTruceDetail from './AStardustTruceDetail';
 import GitHub from './logos/GitHub';
 
@@ -18,7 +17,7 @@ const AStardustTruce = () => {
           <a href="https://astardusttruce.herokuapp.com/">Open App</a>
         </div>
       </div>
-    <Switch>
+    {/* <Switch>
       <Route path="/portfolio/a-stardust-truce">
         <AStardustTruceDetail />
       </Route>
@@ -29,7 +28,7 @@ const AStardustTruce = () => {
           alt="screenshot from A Stardust Truce application featuring generated Python code for a Stack instantiated as a linked list."
         />
       </Route>
-    </Switch>
+    </Switch> */}
   </div>);
 }
 
