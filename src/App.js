@@ -14,8 +14,8 @@ function App() {
         >Sorrel June</header>
         <h4><code>
         {`
-const writeCode = code => \{
-  let newCode = \{...code}; 
+const writeCode = code => {
+  let newCode = {...code}; 
   newCode.value++; 
   return newCode;
 }

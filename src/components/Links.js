@@ -9,7 +9,8 @@ const Links = () => {
     <div className="Contact__link Contact__link__github">
       <a 
         href="https://github.com/sorrelbri"
-        target="_blank"  
+        target="_blank" 
+        rel="noopener noreferrer" 
         >
         <GitHub/>
         <p>GitHub</p>
@@ -19,7 +20,8 @@ const Links = () => {
     <div className="Contact__link Contact__link__linkedin">
       <a 
         href="https://www.linkedin.com/in/sorrel-june/"
-        target="_blank"  
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <LinkedIn />
         <p>LinkedIn</p>
@@ -29,7 +31,8 @@ const Links = () => {
     <div className="Contact__link Contact__link__medium">
       <a 
         href="https://medium.com/@sorrel.bri.june"
-        target="_blank"  
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <Medium />
         <p>Medium</p>

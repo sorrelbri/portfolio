@@ -11,7 +11,7 @@ const AStardustTruceDetail = (props) => {
     </p>
     <br />
     <p>
-      <a href="" onClick={e=>props.handleClick(e)}>Back to the screenshot!</a>
+      <a href="/" onClick={e=>props.handleClick(e)}>Back to the screenshot!</a>
     </p>
   </div>);
 }

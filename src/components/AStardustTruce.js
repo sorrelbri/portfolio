@@ -31,7 +31,7 @@ class AStardustTruce extends Component {
         {this.state.showDetail
           ? <AStardustTruceDetail handleClick={this.handleClick}/>
           : <>
-            <a href="" onClick={e=>this.handleClick(e)}><h5>What is A Stardust Truce?</h5></a>
+            <a href="/" onClick={e=>this.handleClick(e)}><h5>What is A Stardust Truce?</h5></a>
             <img 
               src="/a-stardust-truce-screenshot-python.png" 
               alt="screenshot from A Stardust Truce application featuring generated Python code for a Stack instantiated as a linked list."

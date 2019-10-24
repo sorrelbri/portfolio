@@ -1,8 +1,6 @@
 import React from 'react';
 import BrowserGo from './BrowserGo';
-import BrowserGoDetail from './BrowserGoDetail';
 import AStardustTruce from './AStardustTruce';
-import AStardustTruceDetail from './AStardustTruceDetail';
 import './Projects.scss'
 
 const Projects = () => {
