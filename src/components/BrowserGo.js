@@ -27,7 +27,7 @@ class BrowserGo extends Component {
             >Frontend Repo</a>
           </div>
           <div className="project__links__open-app">
-            <a href="https://browser-go.herokuapp.com/">Open App</a>
+            <a href="https://sorrelbri.github.io/browser-go-proto/">Open Prototype</a>
           </div>
         </div>
         {this.state.showDetail 
