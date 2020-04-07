@@ -24,7 +24,7 @@ class BrowserGo extends Component {
             >Repo</a>
           </div>
           <div className="project__links__open-app">
-            <a href="http://play-node-go.herokuapp.com/">Open App</a>
+            <a href="https://play-node-go.herokuapp.com/">Open App</a>
           </div>
         </div>
         {this.state.showDetail 
