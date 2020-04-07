@@ -15,28 +15,25 @@ class BrowserGo extends Component {
   render() { 
     return (
       <div className="project">
-        <h3>Browser Go</h3>
+        <h3>Node Go</h3>
         <div className="project__project-general__links">
           <div className="project__links__github">
             <GitHub/>
             <a 
-              href="https://github.com/sorrelbri/browser-go-api"
-            >API Repo</a>
-            <a 
-              href="https://github.com/sorrelbri/browser-go-react"
-            >Frontend Repo</a>
+              href="https://github.com/sorrelbri/node-go"
+            >Repo</a>
           </div>
           <div className="project__links__open-app">
-            <a href="https://sorrelbri.github.io/browser-go-proto/">Open Prototype</a>
+            <a href="http://play-node-go.herokuapp.com/">Open App</a>
           </div>
         </div>
         {this.state.showDetail 
           ? <BrowserGoDetail handleClick={this.handleClick}/>
           : <>
-            <a href="/" onClick={e=>this.handleClick(e)}><h5>What is Browser Go?</h5></a>
+            <a href="/" onClick={e=>this.handleClick(e)}><h5>What is Node Go?</h5></a>
             <img 
               src="browser-go-screenshot-full-board.png" 
-              alt="Screenshot of a Browser Go game in session on a 19 by 19 board."
+              alt="Screenshot of a Node Go game in session on a 19 by 19 board."
             />
           </>
         }
