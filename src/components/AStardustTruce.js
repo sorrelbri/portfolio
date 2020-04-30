@@ -14,7 +14,7 @@ class AStardustTruce extends Component {
 
   render() { 
     return (
-      <div className="project">
+      <div className={`project ${this.props.last ? 'project--last' : ''}`}>
         <h3>A Stardust Truce</h3>
         <div className="project__project-general__links">
           <div className="project__links__github">

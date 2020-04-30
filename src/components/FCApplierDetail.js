@@ -11,7 +11,7 @@ const FCApplierDetail = ({handleClick}) => {
   </p>
   <br/>
   <p>
-    <a href="/" onClick={ e => handleClick(e) }>Back to the screenshot!</a>
+    <a href="/" onClick={ e => handleClick(e) }>Go back!</a>
   </p>
 </div>);
 }

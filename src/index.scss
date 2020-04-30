@@ -5,6 +5,7 @@ html {
   border: 0;
   font-family: 'Montserrat', sans-serif;
   background-color: map-get($theme-colors, "header-background");
+  
   body {
     background-color: map-get($theme-colors, "global-background");
     border: 0;

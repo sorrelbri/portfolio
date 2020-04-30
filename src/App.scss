@@ -53,16 +53,26 @@ div.arrow-container {
 }
 
 div.App {
+  .--header {
+    background: map-get($theme-colors, "header-background");
+    padding: 0.5em 1em;
+    border-top: 0.25em solid map-get($theme-colors , "header-background");
+    border-right: 0.5em solid map-get($theme-colors , "content");
+    border-bottom: 0.25em solid map-get($theme-colors , "header-background");
+    border-left: 0.5em solid map-get($theme-colors , "accent");
+    max-width: fit-content;
+    border-radius: 50% 0;
+  }
   
   div.section {
     min-height: 50vh;
   }
-  h3, h5 {
+  h2, h3, h5 {
     color: map-get($theme-colors, "accent");
     font-family: 'Concert One', cursive; 
     text-transform: uppercase;
   }
-  h3 {
+  h2, h3 {
     font-size: 150%;
     margin: 2vh 0;
     align-self: flex-start;
@@ -97,7 +107,7 @@ div.App {
       margin-left: 89vw;
     }
   }
-  content {
+  main {
     display: flex;
     flex-direction: column;
     @media only screen and (min-width: 500px) {

@@ -5,13 +5,14 @@ import FCApplier from './FCApplier';
 import './Projects.scss'
 
 const Projects = () => {
-  return (<>
-    <h3>Projects</h3>
+  return (
+  <section>
+    <h2 className="Projects__header --header">Projects</h2>
     <div className="section Projects" id="Projects">
       <BrowserGo />
       <FCApplier />
-      <AStardustTruce />
+      <AStardustTruce last={true}/>
     </div>
-  </>);
+  </section>);
 }
 export default Projects;

@@ -1,11 +1,15 @@
-div.About {
+@import "public/stylesheets/_variables";
+
+section.About {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
   
   p.About__bio__line {
-    margin: 10%;
+    color: map-get($theme-colors, "header-background");
+    font-weight: bold;
+    margin: 2em 15vw;
     line-height: 1.5;
   }
 }

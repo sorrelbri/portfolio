@@ -1,16 +1,17 @@
 @import 'public/stylesheets/_variables';
 
 div.Projects {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+  display: grid;
   color: map-get($theme-colors, "content");
   max-width: 100vw;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  column-gap: 5vw;
+  row-gap: 5vh;
+  justify-items: center;
+  padding: 0 10vw;
 
   @media only screen and (min-width: 500px) {
-    flex-direction: row;
     div.project {
-      width: 50vw;
       padding: 3vh;
     }
   }
@@ -29,6 +30,12 @@ div.Projects {
     padding: 1vh 4vw 5vh 4vw;
     border-radius: 8vh;
     max-width: 400px;
+    width: 100%;
+
+    &--last {
+      grid-column: 1/-1;
+    }
+
     img {
       max-width: 30vw;
       max-height: 30vw;

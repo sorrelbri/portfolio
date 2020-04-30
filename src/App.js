@@ -26,11 +26,11 @@ const writeCode = code => {
         <div className="arrow-container__arrow"></div>
       </div>
       <Nav />
-      <content>
+      <main>
         <About />
         <Projects />
         <Contact />
-      </content>
+      </main>
     </div>
   );
 }
