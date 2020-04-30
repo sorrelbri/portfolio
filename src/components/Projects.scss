@@ -1,14 +1,16 @@
 @import 'public/stylesheets/_variables';
 
 div.Projects {
-  display: grid;
+  align-items: stretch;
   color: map-get($theme-colors, "content");
-  max-width: 100vw;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  column-gap: 5vw;
-  row-gap: 5vh;
+  column-gap: 10vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35vw, 500px));
+  justify-content: center;
   justify-items: center;
-  padding: 0 10vw;
+  max-width: 100vw;
+  padding: 5vh 10vw;
+  row-gap: 5vh;
 
   @media only screen and (min-width: 500px) {
     div.project {
@@ -23,14 +25,12 @@ div.Projects {
   div.project {
     background-color: map-get($theme-colors, "section-background");
     border: white solid 1vw;
-    margin: 2vw;
     display: flex;
     align-items: center;
     flex-flow: column nowrap;
     padding: 1vh 4vw 5vh 4vw;
     border-radius: 8vh;
-    max-width: 400px;
-    width: 100%;
+    max-width: 100%;
 
     &--last {
       grid-column: 1/-1;

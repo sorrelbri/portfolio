@@ -7,10 +7,10 @@ const Contact = () => {
   return (<>
     <div className="footer-area">
     </div>
-    <section className="section">
+    <section className="section section__contact">
+      <h2 className="--header">Contact</h2>
       <div id="Contact">
         <div className="Contact__personal">
-          <h2 className="--header">Contact</h2>
 
           <div className="Contact__link Contact__link__email">
             <a href="mailto:sorrel.bri.june@gmail.com">

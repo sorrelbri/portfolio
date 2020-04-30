@@ -1,42 +1,41 @@
 @import "public/stylesheets/_variables";
 
-div#Contact {
+section.section__contact{
   background-color: map-get($theme-colors, "header-background");
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
+}
+
+div#Contact {
+  display: grid;
   padding: 2vh 2vw;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  gap: 2vh;
+
   a, h3 {
     display: block;
-    margin: 15vh 5vw;
+    // margin: 15vh 5vw;
     width: 20vw;
   }
   div.Contact__personal {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
   }
   div.Contact__link a {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: #1d191a;
     color: map-get($theme-colors, "accent");
     border: .5vh solid white;
     border-radius: 5vh;
-    padding-right: 2vw;
-    flex-wrap: wrap;
-    padding: 1em;
+    flex-flow: row wrap;
+    padding: 0.5em;
     height: fit-content;
     width: fit-content;
     font-size: 80%;
     @media only screen and (min-width: 800px) {
       font-size: 100%;
-    }
-  }
-  .Contact__link__email a, .Contact__link__resume a {
-    padding: 6vh 1vw;
-    p {
-      margin-bottom: 4vh;
     }
   }
 }
